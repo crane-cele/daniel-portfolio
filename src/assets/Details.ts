@@ -152,7 +152,7 @@ const details = {
     address: 'Clermont, FL, United State',
     email: 'danielfrankmiller@gmail.com',
     phone: '+1 (214) 814-2555',
-    website: 'https://danielfmiller.vercel.app/',
+    website: 'https://fmdaniel.vercel.app/',
     linkedin: 'https://www.linkedin.com/in/daniel-miller-084312335/',
     github: 'https://github.com/daniel-frank-miller',
   },
