@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "conventionalCommits.scopes": [],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.webp": "${capture}.min.webp"
+    }
+  },
+  "launch": {
+    "configurations": [
+      {
+        "name": "Debug app",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "args": ["start"],
+        "runtimeExecutable": "yarn",
+        "resolveSourceMapLocations": [
+          "${workspaceFolder}/",
+          "!/node_modules/**"
+        ]
+      }
+    ],
+    "compounds": []
+  }
+}
