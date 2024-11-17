@@ -69,7 +69,7 @@ export default function Resume() {
 
   const [descriptionEditable, setDescriptionEditable] = useState(false);
   const [descriptionContent, setDescriptionContent] = useState(
-    "Skilled **full-stack developer** with expertise in diverse programming languages and frameworks. Proven ability to deliver impactful projects on GitHub, fostering a **collaborative environment**. Adept at tackling **complex challenges** and thriving in team settings. Seeking to leverage skills in a dynamic role."
+    "Software engineer with 8+ years of experience in full-stack development, building scalable web apps, and systems engineering. Skilled in back-end architecture, API development, and lots more. Proven track record in delivering efficient, scalable software solutions across e-commerce, real estate, healthcare, etc."
   );
   const parsedDescriptionContent = useMemo(
     () =>
