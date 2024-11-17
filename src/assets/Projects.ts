@@ -71,7 +71,6 @@ const projects = [
     title: 'Habaneras',
     description: 'Habaneras de Lino is an online ecommerce. This repo contains the frontend developed using NEXT JS for producing a React js web application',
     demo: "https://www.habanerasdelino.com/",
-    source: "https://github.com/daniel-frank-miller/habaneras_frontend.git",
     logo: habaneras,
     logoMin: habanerasMin,
     skills: [
@@ -85,7 +84,6 @@ const projects = [
     title: 'MedSyncWebApp',
     description: 'Comprehensive Source Code for a Telegram Mini Web Application: Includes Backend, Frontend, and In-Depth Documentation',
     demo: "https://t.me/medsyncbot",
-    source: "https://github.com/daniel-frank-miller/MedSyncWebApp.git",
     logo: banner,
     logoMin: bannerMin,
     skills: [
@@ -99,7 +97,6 @@ const projects = [
     title: 'Doggonation',
     description: 'A Canine-Centric Social Media Platform for AI-Powered NFTs and Charitable Giving, Powered by Appwrite',
     demo: "https://doggonation.hashnode.dev/",
-    source: "https://github.com/daniel-frank-miller/doggonation.git",
     logo: doggonation,
     logoMin: doggonationMin,
     skills: [
@@ -125,7 +122,6 @@ const projects = [
   {
     title: 'HULL',
     description: 'Headless Shopify starter powered by Next.js + Sanity.io.',
-    source: 'https://github.com/daniel-frank-miller/hull.git',
     demo: "https://hull.dev/",
     logo: hull,
     logoMin: hullMin,
