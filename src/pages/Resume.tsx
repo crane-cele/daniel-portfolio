@@ -69,7 +69,7 @@ export default function Resume() {
 
   const [descriptionEditable, setDescriptionEditable] = useState(false);
   const [descriptionContent, setDescriptionContent] = useState(
-    "Software engineer with 8+ years of experience in full-stack development, building scalable web apps, and systems engineering. Skilled in back-end architecture, API development, and lots more. Proven track record in delivering efficient, scalable software solutions across e-commerce, real estate, healthcare, etc."
+    "**Software engineer** with 8+ years of experience in full-stack development, building scalable web apps, and systems engineering. Skilled in **back-end architecture**, **API development**, and lots more. Proven track record in delivering efficient, scalable software solutions across **e-commerce**, **real estate**, **healthcare**, etc."
   );
   const parsedDescriptionContent = useMemo(
     () =>
