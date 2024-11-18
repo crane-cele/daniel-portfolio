@@ -306,7 +306,7 @@ export default function Featured() {
           {
             projects.slice(0, 6).map((project, index) => (
               <React.Fragment
-                key={`$${project.title}-${project.source}`}
+                key={`$${project.title}-${Date.now().toString()}`}
               >
                 <ProjectCard
                   project={project}

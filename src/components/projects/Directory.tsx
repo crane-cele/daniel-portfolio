@@ -32,7 +32,7 @@ export default function Directory() {
         {
           projects.map((project, index) => (
             <React.Fragment
-              key={`$${project.title}-${project.source}`}
+              key={`$${project.title}-${Date.now().toString()}`}
             >
               <ProjectCard
                 project={project}
